@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abhay Sampath UI/UX Portfolio</title>
+        <link  href="css/style.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+    <body>
+        <!--Header Block-->
+        <div class="header">
+            <nav>
+                <ul class="inline-block">
+                    <img src="images/logo2.jpg" class="logo"
+                        class="inline_block_and_logo">
+                    <li class="inline_block_and_logo">About</li>
+                    <li class="inline_block_and_logo">Skills</li>
+                    <li class="inline_block_and_logo">Work</li>
+                    <li class="inline_block_and_logo">Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--Hero Content Block-->
+        <section class="heroImg">
+            <div class="content">
+                <img src="images/Me.jpg" class="picOfMe">
+                <p>Hello, I'm Abhay.
+                <p>I'm a UX Designer and Developer. 
+                <p>I combine my passion for art with my development 
+                experience to create design experiences that are 
+                visually stimulating and technologically sound.
+                </p>
+                <button id="ResumeDownload">Download Resume</button>
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <!-- <div class="resume">
+            <img src="images/Resume.png" class="ResumeImg">
+            <p>Hello, I'm Abhay.
+            </p>
+        </div> -->
+
+        <!--My UX Skills coded using CSS flex-->
+        <section class="mySkills">
+            <h2  class="sectionHead">My UX Skills</h2>
+            <div class="flexContainer">
+                <div class="flexChild">
+                    <img src="images/Interview.JPG" class="pic2">
+                    <h3>User Research</h3>
+                    <p>Collect data to inform the design by creating a User Persona,
+                        conducting Interviews, and creating a Storyboard.</p>
+                </div>
+                <div class="flexChild">
+                    <img src="images/UIDesign.JPG" class="pic2">
+                    <h3>User Interface Design</h3>
+                    <p>Design web pages and mobile application in a way that 
+                        a user's experience is easy and intuitive.</p>
+                </div>
+                <div class="flexChild">
+                    <img src="images/Prototyping.JPG" class="pic2">
+                    <h3>Prototyping</h3>
+                    <p>Create Wireframe skeletons that represent object placement
+                        and Prototypes to simulate what the product will look like.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!--My Work Block built w/ CSS Grid-->
+        <section class="myWorkBlock">
+            <h2  class="sectionHead">My Work</h2>
+            <div class="workGrid">
+                <!-- Work Block 1-->
+                <!-- <div class="workBlock1"> -->
+                <div class="workBlockImg1">
+                    <img src="images/Farm.jpg" class="workBlockPic1">
+                </div>
+                <div class="workBlockText1">
+                    <h4>Nonprofit Website Redesign-
+                        Farm Animal Rescue of Maine</h4>
+                    <p>Re-designed the navigation components of a 
+                        local farm that hosted summer camps and 
+                        rescued farm animals.</p>
+                    <button class="workButton1">
+                        Read More
+                    </button>
+                </div>
+
+                <!-- Modal Popup for workBlock1 -->
+                <div id="myModal1" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                        <div class="modal-header">
+                            <h2>Farm Animal Rescue Of Maine</h2>
+                            <h3>Case Study: Nonprofit Website Redesign</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>About the Project</h4>
+                            <!-- <button id="ResumeDownload">Download Resume</button> -->
+                            <button class="openDesktopPrototype1">View Desktop Prototype</button>
+                            <button class="openMobilePrototype1">View Mobile Prototype</button>
+                            <p>The goal of this project was to re-design a non-profit website with 
+                                the user experience in mind. Our team selected Farm Animal Rescue 
+                                of Maine after noticing that they had a lot of information for display, 
+                                but had organized it all into single long pages. </p>
+                            <p>We decided to reorganize the website to divide the posts into smaller 
+                                pages accessible through menus. This helped users that knew where they 
+                                wanted to go navigate to their destination quickly, while also giving 
+                                users that wanted to browse the non-profit's offerings an informative 
+                                landing page to start on and start exploring from.</p>
+                            <div class="workBlockImg1">
+                                <img src="images/Farm.jpg" class="workBlockPic1">
+                            </div>
+
+                            <h4>Tasks and Challenges</h4>
+                            <p>Website needs an aesthetic design and a call to action. It doesn't 
+                                provide users with enough information to plan their trip, which is 
+                                causing them to choose other destinations</p>
+                            <h4>Tools Used</h4>
+                            <p>Adobe Xd: Create prototype</p>
+                            <p>Google Forms: Create Survey, Collect Data</p>
+                            <p>Miro: Brainstorming, Gathering, Sorting Data</p>
+                            <p>Figma: Shareable space to collect ideas</p>
+
+                            <h4>Research Methodology</h4>
+                            <p>Conducted phone and online surveys to gather data about why people 
+                                visit farms and what data they are looking for on the farm’s website. 
+                                Analyzed 4 other farm websites to find strengths, weaknesses, 
+                                opportunities, and threats.</p>
+                            <p>Compiled survey results to find specific areas for improvement. 
+                                Created a User Persona with specific behavioral demographics, 
+                                needs, goal, and pain points.</p>
+                            <p>Used the persona we created to create a user journey and drew storyboards. 
+                                Reorganized the website sitemap to organize information into menus and submenus.</p>
+                            <h4>User Experience Storyboard</h4>
+                            <div class="workBlockImg1">
+                                <img src="images/FarmStoryBoard.png" class="workBlockPic1">
+                            </div>
+                            <h4>Wireframing & Prototyping</h4>
+                            <p>Using the updated sitemap, we created lo-fi wireframes, then iterated the design
+                                with further testing and developed a clickable high-fidelity prototype starting 
+                                with the site navigation.
+                            </p>
+                            <p>The prototypes focused on two main tasks: 
+                                    1) Registering for the farm camp
+                                    2) Donating to the animal rescue nonprofit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Popup for workBlock2 -->
+                <div id="myModal2" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+                </div>
+
+                <!-- Work Block 2-->
+                <!-- <div class="workBlock2"> -->
+                <div class="workBlockImg2">
+                    <img src="images/MobileApp.JPG" class="workBlockPic2">
+                </div>
+                <div class="workBlockText2">
+                    <h4>Mobile Travel App Design</h4>
+                    <p>Conducted User Interviews and designed 
+                        mobile app based on findings.</p>
+                    <button class="workButton2">
+                        Read More
+                    </button>
+                </div>
+                <!-- </div> -->
+            </div>
+            <h3 class="sectionHead">View All Projects</h3>
+        </section>
+
+        <!--Footer Block-->
+        <footer>
+            <ul>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Work</li>
+                <li>Contact</li>
+            </ul>
+        </footer>
+<!---->
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script  language="JavaScript" type="text/javascript" src="js/index.js"></script>
+</html>
