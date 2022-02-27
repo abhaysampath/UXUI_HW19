@@ -9,7 +9,6 @@
     <body>
         <!--Header Block-->
         <div class="header">
-            <nav>
                 <ul class="inline-block">
                     <img src="images/logo2.jpg" class="logo"
                         class="inline_block_and_logo">
@@ -17,8 +16,9 @@
                     <li class="inline_block_and_logo">Skills</li>
                     <li class="inline_block_and_logo">Work</li>
                     <li class="inline_block_and_logo">Contact</li>
+                    <img src="images/logo2.jpg" class="flip logo" 
+                        class="inline_block_and_logo">
                 </ul>
-            </nav>
         </div>
 
         <!--Hero Content Block-->
@@ -31,16 +31,10 @@
                 experience to create design experiences that are 
                 visually stimulating and technologically sound.
                 </p>
-                <button id="ResumeDownload">Download Resume</button>
             </div>
+            <!-- Resume -->
+            <button class="ResumeDownload">Download Resume</button>
         </section>
-
-        <!-- Resume -->
-        <!-- <div class="resume">
-            <img src="images/Resume.png" class="ResumeImg">
-            <p>Hello, I'm Abhay.
-            </p>
-        </div> -->
 
         <!--My UX Skills coded using CSS flex-->
         <section class="mySkills">
@@ -73,7 +67,6 @@
             <h2  class="sectionHead">My Work</h2>
             <div class="workGrid">
                 <!-- Work Block 1-->
-                <!-- <div class="workBlock1"> -->
                 <div class="workBlockImg1">
                     <img src="images/Farm.jpg" class="workBlockPic1">
                 </div>
@@ -93,16 +86,14 @@
                     <!-- Modal content -->
                     <div class="modal-content">
                         <span class="close">&times;</span>
-                        <p>Some text in the Modal..</p>
                         <div class="modal-header">
-                            <h2>Farm Animal Rescue Of Maine</h2>
-                            <h3>Case Study: Nonprofit Website Redesign</h3>
-                        </div>
-                        <div class="modal-body">
-                            <h4>About the Project</h4>
-                            <!-- <button id="ResumeDownload">Download Resume</button> -->
+                            <h1>Farm Animal Rescue Of Maine</h1>
+                            <h2>Case Study: Nonprofit Website Redesign</h2>
                             <button class="openDesktopPrototype1">View Desktop Prototype</button>
                             <button class="openMobilePrototype1">View Mobile Prototype</button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="modalSectionHead">About the Project</h4>
                             <p>The goal of this project was to re-design a non-profit website with 
                                 the user experience in mind. Our team selected Farm Animal Rescue 
                                 of Maine after noticing that they had a lot of information for display, 
@@ -112,11 +103,10 @@
                                 wanted to go navigate to their destination quickly, while also giving 
                                 users that wanted to browse the non-profit's offerings an informative 
                                 landing page to start on and start exploring from.</p>
-                            <div class="workBlockImg1">
-                                <img src="images/Farm.jpg" class="workBlockPic1">
+                            <div class="modalPic1">
+                                <img src="images/Farm.jpg" class="modalImg1">
                             </div>
-
-                            <h4>Tasks and Challenges</h4>
+                            <h4 class="modalSectionHead">Tasks and Challenges</h4>
                             <p>Website needs an aesthetic design and a call to action. It doesn't 
                                 provide users with enough information to plan their trip, which is 
                                 causing them to choose other destinations</p>
@@ -126,7 +116,7 @@
                             <p>Miro: Brainstorming, Gathering, Sorting Data</p>
                             <p>Figma: Shareable space to collect ideas</p>
 
-                            <h4>Research Methodology</h4>
+                            <h4 class="modalSectionHead">Research Methodology</h4>
                             <p>Conducted phone and online surveys to gather data about why people 
                                 visit farms and what data they are looking for on the farm’s website. 
                                 Analyzed 4 other farm websites to find strengths, weaknesses, 
@@ -136,18 +126,19 @@
                                 needs, goal, and pain points.</p>
                             <p>Used the persona we created to create a user journey and drew storyboards. 
                                 Reorganized the website sitemap to organize information into menus and submenus.</p>
-                            <h4>User Experience Storyboard</h4>
-                            <div class="workBlockImg1">
-                                <img src="images/FarmStoryBoard.png" class="workBlockPic1">
+                                
+                            <h4 class="modalSectionHead">User Experience Storyboard</h4>
+                            <div class="modalPic2">
+                                <img src="images/FarmStoryBoard.png" class="modalImg2">
                             </div>
-                            <h4>Wireframing & Prototyping</h4>
+                            <h4 class="modalSectionHead">Wireframing & Prototyping</h4>
                             <p>Using the updated sitemap, we created lo-fi wireframes, then iterated the design
                                 with further testing and developed a clickable high-fidelity prototype starting 
                                 with the site navigation.
                             </p>
-                            <p>The prototypes focused on two main tasks: 
-                                    1) Registering for the farm camp
-                                    2) Donating to the animal rescue nonprofit.</p>
+                            <p>The prototypes focused on two main tasks:</p> 
+                            <p>        1) Registering for the farm camp</p>
+                            <p>        2) Donating to the animal rescue nonprofit.</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +152,6 @@
                 </div>
 
                 <!-- Work Block 2-->
-                <!-- <div class="workBlock2"> -->
                 <div class="workBlockImg2">
                     <img src="images/MobileApp.JPG" class="workBlockPic2">
                 </div>
@@ -184,10 +174,9 @@
                 <li>About</li>
                 <li>Skills</li>
                 <li>Work</li>
-                <li>Contact</li>
+                <li>Contact</li> 
             </ul>
         </footer>
-<!---->
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script  language="JavaScript" type="text/javascript" src="js/index.js"></script>
