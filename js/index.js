@@ -12,6 +12,15 @@ $(".workButton1").on("click", function(){
     modal1.style.display = "block";
     console.log("Clicked on workButton1");
 });
+
+var link2 = "https://abhaysampath.github.io/UXUI_HW20/index.html";
+var span = document.getElementsByClassName("close")[0];
+$(".workButton2").on("click", function(){
+    $(".workButton2").fadeTo("slow", 0.3);
+    open(link2);
+    //modal1.style.display = "block";
+    console.log("Clicked on workButton1");
+});
 span.onclick = function() {
     modal1.style.display = "none";
 }
